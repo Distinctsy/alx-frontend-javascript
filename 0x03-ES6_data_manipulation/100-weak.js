@@ -6,4 +6,3 @@ export function queryAPI(endpoint) {
   called += 1;
 
   weakMap.set(endpoint, called);
-
